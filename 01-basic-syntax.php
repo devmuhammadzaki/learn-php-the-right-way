@@ -1,19 +1,26 @@
 <?php
 
-// PHP basic syntax example
+/* PHP basic syntax example */
+
 // PHP code is executed on the server and the result is returned to the browser
 // PHP files can contain HTML, CSS, and JavaScript code
 // PHP code starts with <?php
 
 // echo and print are used to output data
 echo "Hello, World!";
+echo '<br>';
 print "hello, world!";
 
+echo '<br>';
 echo ("Hello, World!");
 
+echo '<br>';
 echo 'Hello', 'world';
+echo '<br>';
+// echo can take multiple parameters separated by commas, while print cannot
 // you cant do the ubove with print
 print("hello, world!");
+echo '<br>';
 
 // print can be used within expressions while echo cannot
 // print has a return value of 1 echo has no return value
@@ -21,9 +28,12 @@ print("hello, world!");
 
 // escaping characters
 echo "Joe's car";
+echo '<br>';
 echo 'joe\'s car';
+echo '<br>';
 
 // variables
+
 // variables are used to store data
 // variable names must start with a letter or underscore, followed by letters, numbers, or underscores
 $greeting = "Hello, World!";
@@ -35,6 +45,7 @@ $var1 = "Hello";
 $var_2 = "World";
 $var3 = "!";
 echo $var1 . " " . $var_2 . $var3; // concatenation with dot operator
+echo '<br>';
 
 // you cannot assign values to $this or $self
 // $this and $self are reserved keywords in PHP
