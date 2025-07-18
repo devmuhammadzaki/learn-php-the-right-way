@@ -237,3 +237,15 @@ echo '<br>';
 
 
 // Type Casting
+// Type casting is the process of converting a value from one data type to another
+// In PHP, you can cast a value to a specific type using the following syntax:
+$intValue = (int)$pi; // Cast float to integer
+echo "Integer value: $intValue"; // Outputs: Integer value: 3
+echo '<br>';
+$stringValue = (string)$number; // Cast integer to string
+echo "String value: $stringValue"; // Outputs: String value: 42
+echo '<br>';
+$arrayValue = (array)$greeting; // Cast string to array
+echo "Array value: ";
+print_r($arrayValue); // Outputs: Array value: Array ( [0] => Hello, World! )
+echo '<br>';
