@@ -7,7 +7,7 @@ This is me following the Learn PHP The Right Way series on youtube. The series i
 - [ 1.1 - Syntax](./section1/01-basic-syntax.php)
 - [ 1.2 - Constants & Variable Variables](./section1/02-variables-and-constants.php)
 - [ 1.3 - Data Types & Casting](./section1/03-data-types.php)
-- [ 1.4 - Boolean Data Type]()
+- [ 1.4 - Boolean Data Type](./section1/04-boolean-data-type.php)
 - [ 1.5 - Integer Data Type]()
 - [ 1.6 - Float Data Type]()
 - [ 1.7 - String Data Type - Heredoc & Nowdoc Syntax]()
