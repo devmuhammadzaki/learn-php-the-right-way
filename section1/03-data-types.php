@@ -1,6 +1,6 @@
 <?php
 
-/* Data Types & Types Casting */
+/* Data Types & Type Casting */
 
 # 4 Scalar Types
 // Scalar types are the most basic data types in PHP, representing single values.
@@ -234,3 +234,6 @@ if (empty($emptyVariable)) {
     echo "Variable is not empty.";
 }
 echo '<br>';
+
+
+// Type Casting
